@@ -1,4 +1,15 @@
-<div class="container text-center pad">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WikiViewer</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<div id="home">
+<div class="container text-center pad" id="homeDiv">
   <div class="row">
     <div class="col-md-12"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><input type="button" name="randomPage" value="Random Wiki Page" class="btn btn-primary"></a>
     </div>
@@ -7,7 +18,55 @@
   <div class="row">
     <div class="col-md-12">
       <input type="text" id="srchStr">
-      <input type="button" id="btnSrch" class="btn btn-primary" value="Search">
+      <input type="button" id="btnSrch" class="btn btn-primary" value="Search" onclick="fetchWiki()">
     </div>
   </div>
 </div>
+</div>
+
+
+<div id="Wikilinks" class="container" style="display: none;">
+<br><br>
+  <a id="a1" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p1h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p1c">Panel Content</p></div>
+    </div></a>
+    <a id="a2" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p2h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p2c">Panel Content</p></div>
+    </div></a>
+    <a id="a3" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p3h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p3c">Panel Content</p></div>
+    </div></a>
+    <a id="a4" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p4h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p4c">Panel Content</p></div>
+    </div></a>
+    <a id="a5" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p5h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p5c">Panel Content</p></div>
+    </div></a>
+    <a id="a6" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p6h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p6c">Panel Content</p></div>
+    </div></a>
+    <a id="a7" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p7h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p7c">Panel Content</p></div>
+    </div></a>
+    <a id="a8" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p8h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p8c">Panel Content</p></div>
+    </div></a>
+    <a id="a9" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p9h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p9c">Panel Content</p></div>
+    </div></a>
+    <a id="a10" target="_blank"><div class="panel panel-primary">
+      <div class="panel-heading"><p id="p10h">Panel with panel-primary class</p></div>
+      <div class="panel-body"><p id="p10c">Panel Content</p></div>
+    </div></a>
+</div>
+</body>
+</html>
